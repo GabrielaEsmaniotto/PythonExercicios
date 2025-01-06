@@ -1,0 +1,10 @@
+times = ('Palmeiras', 'Grêmio', 'Atlético-MG', 'Flamengo', 'Botafogo', 'Red Bull Bragantino', 'Fluminense', 'Atlético-PR', 'Internacional', 'Fortaleza', 'São Paulo', 'Cuiabá', 'Corinthians', 'Cruzeiro', 'Vasco', 'Bahia', 'Santos', 'Goiás', 'Coritiba', 'América-MG')
+for t in times:
+    print(t)
+print('5 primeiro colocados do Campeonato Brasileiro de Futebol: ')
+print(times[0:5])
+print('Os últimos 4 colocados no tabela: ')
+print(times[-4:])
+print('Times em ordem alfabética: ')
+print(sorted(times))
+print(f'O time {times[14]} está na {times.index("Vasco")+1}º posição do Campeoneto Brasileiro de Futebol')
